@@ -7,6 +7,7 @@ import AboutPage from './pages/About.jsx';
 import Services from './pages/Services.jsx';
 import ReviewsPage from './pages/Reviews.jsx';
 import DoctorsPage from './pages/DoctorsPage.jsx';
+import NotFound from './pages/NotFound.jsx';
 
 const router = createBrowserRouter([{
   path: "/",
@@ -26,12 +27,10 @@ const router = createBrowserRouter([{
   }, {
     path: "Doctors",
     element: <DoctorsPage />,
-  },
-    // {
-    //   path: "*",
-    //   element: <NotFound />
-    // }
-  ]
+  }, {
+    path: "*",
+    element: <NotFound />
+  }]
 }])
 
 createRoot(document.getElementById('root')).render(
