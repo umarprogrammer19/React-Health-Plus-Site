@@ -1,5 +1,6 @@
 import React from "react";
 import Hero from "../Components/Hero";
+import Info from "../components/Info";
 // import Info from "../Components/Info";
 // import About from "../Components/About";
 // import BookAppointment from "../Components/BookAppointment";
@@ -10,7 +11,8 @@ function Home() {
     return (
         <div className="home-section">
             <Hero />
-            {/* <Info />
+            <Info />
+            {/* 
             <About />
             <BookAppointment />
             <Reviews />
