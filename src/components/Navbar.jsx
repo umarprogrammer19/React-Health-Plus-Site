@@ -86,29 +86,24 @@ function Navbar() {
                         </Link>
                     </li>
                     <li>
-                        <a onClick={openNav} href="#services">
+                        <Link onClick={openNav} to="/Services">
                             Services
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a onClick={openNav} href="#about">
+                        <Link onClick={openNav} to="/About">
                             About
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a onClick={openNav} href="#reviews">
+                        <Link onClick={openNav} to="/Reviews">
                             Reviews
-                        </a>
+                        </Link>
                     </li>
                     <li>
-                        <a onClick={openNav} href="#doctors">
+                        <Link onClick={openNav} to="/Doctors">
                             Doctors
-                        </a>
-                    </li>
-                    <li>
-                        <a onClick={openNav} href="#contact">
-                            Contact
-                        </a>
+                        </Link>
                     </li>
                 </ul>
             </div>
